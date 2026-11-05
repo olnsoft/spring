@@ -63,7 +63,7 @@ public class EventService {
         } catch (Exception e) {
             System.out.println("Erro ao salvar o arquivo: " + e.getMessage());
             e.printStackTrace();
-            return null;
+            return "";
         }
     }
 }
